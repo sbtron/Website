@@ -28,8 +28,8 @@ function startGame() {
 
         BABYLON.Engine.ShadersRepository = "/src/Shaders/";
 
-        //if (!currentHelpCounter) currentHelpCounter = 0;
-        currentHelpCounter = 0;
+        if (!currentHelpCounter) currentHelpCounter = 0;
+        
 
         // Resize
         window.addEventListener("resize", function () {
