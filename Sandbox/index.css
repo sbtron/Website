@@ -252,6 +252,7 @@ li {
     z-index: 3;
     cursor: default;
     background-color: #988DB5;
+    display: none;
 }
 
 .loadingText {
